@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/Desktop/Exp1b/simulation/qsim
+vdiv11
+Z1 !s110 1551218230
+!i10b 1
+!s100 3]In5hDI_IB8jh41Kl>`Q3
+IKMn=29U<OGUi?kYeC5;]M0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551218229
+8div11.vo
+Fdiv11.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1551218230.000000
+!s107 div11.vo|
+!s90 -work|work|div11.vo|
+!i113 1
+Z5 o-work work
+vdiv11_vlg_vec_tst
+R1
+!i10b 1
+!s100 j5W_oCb20k>8ggEniXflX1
+IXG79mRmf6FbX^l7E6>l@m0
+R2
+R0
+w1551218222
+8div11.vwf.vt
+Fdiv11.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 div11.vwf.vt|
+!s90 -work|work|div11.vwf.vt|
+!i113 1
+R5

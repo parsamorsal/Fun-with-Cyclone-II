@@ -1,0 +1,197 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -6.780
+TNS   : -252.933
+
+Type  : Slow 1100mV 85C Model Setup 'LCD_Display:dis|CLK_400HZ'
+Slack : -3.303
+TNS   : -85.035
+
+Type  : Slow 1100mV 85C Model Setup 'debounce:db|my_dff:d1|Q'
+Slack : -2.276
+TNS   : -6.179
+
+Type  : Slow 1100mV 85C Model Setup 'debounce:db|slow_clk'
+Slack : -1.340
+TNS   : -1.340
+
+Type  : Slow 1100mV 85C Model Hold 'debounce:db|slow_clk'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.514
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'LCD_Display:dis|CLK_400HZ'
+Slack : 0.621
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'debounce:db|my_dff:d1|Q'
+Slack : 1.388
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.724
+TNS   : -70.768
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LCD_Display:dis|CLK_400HZ'
+Slack : -0.724
+TNS   : -42.939
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'debounce:db|my_dff:d1|Q'
+Slack : -0.724
+TNS   : -3.392
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'debounce:db|slow_clk'
+Slack : -0.724
+TNS   : -2.317
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -6.959
+TNS   : -249.068
+
+Type  : Slow 1100mV 0C Model Setup 'LCD_Display:dis|CLK_400HZ'
+Slack : -3.247
+TNS   : -83.489
+
+Type  : Slow 1100mV 0C Model Setup 'debounce:db|my_dff:d1|Q'
+Slack : -2.308
+TNS   : -6.254
+
+Type  : Slow 1100mV 0C Model Setup 'debounce:db|slow_clk'
+Slack : -1.388
+TNS   : -1.388
+
+Type  : Slow 1100mV 0C Model Hold 'debounce:db|slow_clk'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.528
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'LCD_Display:dis|CLK_400HZ'
+Slack : 0.650
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'debounce:db|my_dff:d1|Q'
+Slack : 1.377
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.724
+TNS   : -71.241
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LCD_Display:dis|CLK_400HZ'
+Slack : -0.724
+TNS   : -42.666
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'debounce:db|my_dff:d1|Q'
+Slack : -0.724
+TNS   : -3.505
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'debounce:db|slow_clk'
+Slack : -0.724
+TNS   : -2.308
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.805
+TNS   : -76.848
+
+Type  : Fast 1100mV 85C Model Setup 'LCD_Display:dis|CLK_400HZ'
+Slack : -1.269
+TNS   : -26.744
+
+Type  : Fast 1100mV 85C Model Setup 'debounce:db|slow_clk'
+Slack : -0.917
+TNS   : -0.917
+
+Type  : Fast 1100mV 85C Model Setup 'debounce:db|my_dff:d1|Q'
+Slack : -0.630
+TNS   : -1.661
+
+Type  : Fast 1100mV 85C Model Hold 'debounce:db|slow_clk'
+Slack : -0.017
+TNS   : -0.017
+
+Type  : Fast 1100mV 85C Model Hold 'LCD_Display:dis|CLK_400HZ'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'debounce:db|my_dff:d1|Q'
+Slack : 0.520
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.190
+TNS   : -5.425
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LCD_Display:dis|CLK_400HZ'
+Slack : -0.019
+TNS   : -0.211
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'debounce:db|my_dff:d1|Q'
+Slack : 0.019
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'debounce:db|slow_clk'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.536
+TNS   : -65.626
+
+Type  : Fast 1100mV 0C Model Setup 'LCD_Display:dis|CLK_400HZ'
+Slack : -1.095
+TNS   : -22.768
+
+Type  : Fast 1100mV 0C Model Setup 'debounce:db|slow_clk'
+Slack : -0.815
+TNS   : -0.815
+
+Type  : Fast 1100mV 0C Model Setup 'debounce:db|my_dff:d1|Q'
+Slack : -0.544
+TNS   : -1.415
+
+Type  : Fast 1100mV 0C Model Hold 'debounce:db|slow_clk'
+Slack : -0.070
+TNS   : -0.070
+
+Type  : Fast 1100mV 0C Model Hold 'LCD_Display:dis|CLK_400HZ'
+Slack : 0.098
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'debounce:db|my_dff:d1|Q'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.212
+TNS   : -5.535
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LCD_Display:dis|CLK_400HZ'
+Slack : 0.021
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'debounce:db|my_dff:d1|Q'
+Slack : 0.037
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'debounce:db|slow_clk'
+Slack : 0.093
+TNS   : 0.000
+
+------------------------------------------------------------

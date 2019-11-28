@@ -1,0 +1,20 @@
+Fitter Status : Successful - Tue Mar 12 11:21:05 2019
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+Revision Name : exp3
+Top-level Entity Name : lpm
+Family : Cyclone IV GX
+Device : EP4CGX15BF14C6
+Timing Models : Final
+Total logic elements : 103 / 14,400 ( < 1 % )
+    Total combinational functions : 103 / 14,400 ( < 1 % )
+    Dedicated logic registers : 0 / 14,400 ( 0 % )
+Total registers : 0
+Total pins : 32 / 81 ( 40 % )
+Total virtual pins : 0
+Total memory bits : 0 / 552,960 ( 0 % )
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0 / 2 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 2 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 2 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 2 ( 0 % )
+Total PLLs : 0 / 3 ( 0 % )

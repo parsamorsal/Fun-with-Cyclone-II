@@ -1,0 +1,23 @@
+
+State Machine - |top|LCD_Display:dis|next_command
+Name next_command.DISPLAY_CLEAR next_command.DISPLAY_OFF next_command.RETURN next_command.PRINT_STRING next_command.MODE_SET next_command.DISPLAY_ON next_command.FUNC_SET 
+next_command.FUNC_SET 0 0 0 0 0 0 0 
+next_command.DISPLAY_ON 0 0 0 0 0 1 1 
+next_command.MODE_SET 0 0 0 0 1 0 1 
+next_command.PRINT_STRING 0 0 0 1 0 0 1 
+next_command.RETURN 0 0 1 0 0 0 1 
+next_command.DISPLAY_OFF 0 1 0 0 0 0 1 
+next_command.DISPLAY_CLEAR 1 0 0 0 0 0 1 
+
+State Machine - |top|LCD_Display:dis|state
+Name state.DISPLAY_CLEAR state.DISPLAY_OFF state.HOLD state.DROP_LCD_E state.RETURN state.PRINT_STRING state.MODE_SET state.DISPLAY_ON state.FUNC_SET state.RESET 
+state.RESET 0 0 0 0 0 0 0 0 0 0 
+state.FUNC_SET 0 0 0 0 0 0 0 0 1 1 
+state.DISPLAY_ON 0 0 0 0 0 0 0 1 0 1 
+state.MODE_SET 0 0 0 0 0 0 1 0 0 1 
+state.PRINT_STRING 0 0 0 0 0 1 0 0 0 1 
+state.RETURN 0 0 0 0 1 0 0 0 0 1 
+state.DROP_LCD_E 0 0 0 1 0 0 0 0 0 1 
+state.HOLD 0 0 1 0 0 0 0 0 0 1 
+state.DISPLAY_OFF 0 1 0 0 0 0 0 0 0 1 
+state.DISPLAY_CLEAR 1 0 0 0 0 0 0 0 0 1 

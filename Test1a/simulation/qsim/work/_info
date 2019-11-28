@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//Mac/Home/Desktop/Exp1a/simulation/qsim
+vdiv3
+Z1 !s110 1551212152
+!i10b 1
+!s100 hb4UQ;aV8eUS9mPgz5U<d2
+I<k1[O:[IZC:i7ZMRb8BAb2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551212151
+Z3 8div3.vo
+Z4 Fdiv3.vo
+Z5 L0 32
+Z6 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z7 !s108 1551212152.000000
+Z8 !s107 div3.vo|
+Z9 !s90 -work|work|div3.vo|
+!i113 1
+Z10 o-work work
+vdiv3_vlg_vec_tst
+R1
+!i10b 1
+!s100 9dJ6E[X_6SBkT@g3I<9LV3
+IPNaWeaQ:ChCGLg:1oN73Z1
+R2
+R0
+w1551212144
+8div3.vwf.vt
+Fdiv3.vwf.vt
+Z11 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 div3.vwf.vt|
+!s90 -work|work|div3.vwf.vt|
+!i113 1
+R10
+vmod3
+Z12 !s110 1551209598
+!i10b 1
+!s100 Wii>Uzd0AOHPLY7l_6Wz;3
+IU[b`MC:gjeb^cCefP65OW2
+R2
+R0
+w1551209597
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z13 !s108 1551209598.000000
+R8
+R9
+!i113 1
+R10
+vmod3_vlg_vec_tst
+R12
+!i10b 1
+!s100 ULPc`zARnCIPZ@:WTnML@2
+IS;P^Lc[a;SNG7:DOM9:jQ1
+R2
+R0
+w1551209591
+8mod3.vwf.vt
+Fmod3.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R13
+!s107 mod3.vwf.vt|
+!s90 -work|work|mod3.vwf.vt|
+!i113 1
+R10

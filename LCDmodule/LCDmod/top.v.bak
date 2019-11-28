@@ -1,0 +1,33 @@
+module top(
+  	output LCD_ON,   
+  	output LCD_BLON, 
+  	output LCD_RW,   
+  	output LCD_EN,   
+  	output LCD_RS,   
+  	inout [7:0] LCD_DATA,
+  	input CLOCK_50,
+  	input clk,
+  	input reset,
+  	input i)
+
+	wire t, f;
+
+	fsm f(
+		.t(t),
+		.f(f),
+		.clk(clk),
+		.reset(reset),
+		.i(i));
+
+	LCD_Display u1(
+	   .clk_50MHZ(CLOCK_50),
+	   .reset(reset),
+	   .t(t),
+	   .f(f),
+	   .DATA_BUS(LCD_DATA),
+	   .LCD_RW(LCD_RW),
+	   .LCD_E(LCD_EN),
+	   .LCD_RS(LCD_RS)
+	);
+
+endmodule 
